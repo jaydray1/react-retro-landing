@@ -1,0 +1,15 @@
+.retro-link-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  border: 2px solid blue;
+}
+
+.retro-link-stamp {
+  height: 2em;
+  width: 3.5em;
+  border: 2px solid orange;
+  padding: 10px;
+  margin: 15px;
+}

@@ -4,6 +4,7 @@ import Hello from './Hello';
 import RetroHeadliner from './RetroHeadliner';
 import RetroLinkedin from './RetroLinkedin';
 import RetroProjects from './RetroProjects';
+import RetroTechLinks from './RetroTechLinks';
 import './style.css';
 
 class App extends Component {
@@ -23,7 +24,7 @@ class App extends Component {
             <RetroLinkedin className="linked"></RetroLinkedin>
             <RetroProjects className="projects"></RetroProjects>
           </div>
-          <app-retro-tech-links class="tech"></app-retro-tech-links>
+          <RetroTechLinks className="tech"></RetroTechLinks>
         </div>
       </div>
     );
