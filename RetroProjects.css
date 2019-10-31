@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.projects-header {
+  color: white;
+  font-size: 60px;
+  margin-top: -20px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.main-pro-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.pro-stamp {
+  height: 5em;
+  width: 100%;
+  border: 2px solid blue;
+  transition: transform .5s ease;
+  margin-top: 15px;
+}
+
+.pro-stamp:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.link-container {
+  height: 100%;
+  /* width: 100%; */
+  background-image: url('https://marmot-clone-start.s3-us-west-1.amazonaws.com/Screen+Shot+2019-06-01+at+4.25.18+AM.png');
+  background-size: contain;
+}
+
+/* h1 {
+  text-align: center;
+  text-align: -webkit-center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  padding: 20px;
+} */
+
+a:link    {
+  text-decoration:  none;
+  /* font-weight:      bold; */
+  /* background-color: #ddd; */
+  color:            white;
+  } 
+
+  a:visited    {
+  text-decoration:  none;
+  color:            white;
+  } 
+
