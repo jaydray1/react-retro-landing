@@ -10,9 +10,6 @@ import './style.css';
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      name: 'React'
-    };
   }
 
   render() {
@@ -20,7 +17,7 @@ class App extends Component {
       <div className="main-app">
         <div className="component-container">
           <RetroHeadliner className="header"></RetroHeadliner>
-          <div class="middle-main-split">
+          <div className="middle-main-split">
             <RetroLinkedin className="linked"></RetroLinkedin>
             <RetroProjects className="projects"></RetroProjects>
           </div>
