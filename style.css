@@ -1,3 +1,5 @@
+body { margin:0; } /* Remove body margins */
+
 .main-app {
   display: flex;
   flex-direction: column;
