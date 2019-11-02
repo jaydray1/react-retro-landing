@@ -7,6 +7,7 @@ mainImage = 'https://s3-us-west-1.amazonaws.com/marmot-clone-start/me_cutout.png
     <div className="banner-container">
       <img src={mainImage} alt='me vice'/>
 
+    <div className='button-holder'>
       <div className="below-button">
         <a href="https://www.linkedin.com/in/jonmichaeldreher/" target="_blank">
           <button className="linkedin-button" style={{backgroundImage: 'url(https://marmot-clone-start.s3-us-west-1.amazonaws.com/linkedInBrand.png)'}}/> 
@@ -20,6 +21,7 @@ mainImage = 'https://s3-us-west-1.amazonaws.com/marmot-clone-start/me_cutout.png
           </button> 
         </a>
       </div>
+    </div>
     </div>
   )
 }
