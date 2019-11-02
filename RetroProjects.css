@@ -12,38 +12,42 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   padding: 20px;
   margin: 10px;
 }
 
 .pro-stamp {
-  height: 5em;
-  width: 100%;
-  border: 2px solid blue;
+  height: 10em;
+  width: 50%;
+  border: 2px dotted whitesmoke;
   transition: transform .5s ease;
   margin-top: 15px;
+  position: relative;
 }
 
 .pro-stamp:hover {
   cursor: pointer;
   transform: scale(1.05);
+  border: 2px dotted purple;
 }
 
 .link-container {
   height: 100%;
-  /* width: 100%; */
-  background-image: url('https://marmot-clone-start.s3-us-west-1.amazonaws.com/Screen+Shot+2019-06-01+at+4.25.18+AM.png');
+  width: 100%;
+  /* background-image: url('https://marmot-clone-start.s3-us-west-1.amazonaws.com/Screen+Shot+2019-06-01+at+4.25.18+AM.png'); */
   background-size: contain;
+  position: absolute;
+  display: table;
 }
 
-/* h1 {
+.link-title {
+  display: table-cell; 
+  vertical-align: middle; 
   text-align: center;
-  text-align: -webkit-center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
-  padding: 20px;
-} */
+  color: white;
+}
 
 a:link    {
   text-decoration:  none;

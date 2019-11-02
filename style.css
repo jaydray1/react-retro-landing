@@ -13,14 +13,12 @@ body { margin:0; } /* Remove body margins */
   background: #3494E6;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border: 2px solid red;
 }
 
 .header {
   display: flex;
   justify-content: center;
   width: 100%;
-  border: 2px solid red;
 }
 
 .middle-main-split {
@@ -39,7 +37,6 @@ body { margin:0; } /* Remove body margins */
   display: flex;
   width: 50%;
   height: 50vh;
-  border: 2px solid red;
 }
 .tech {
   display: flex;
