@@ -6,24 +6,50 @@
   justify-content: center;
   align-items: center;
 }
+
 img {
   /* position: relative; */
   height: 60vh;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   margin-top: -7.5em;
   /* border: 2px solid red; */
+   -webkit-filter: hue-rotate(90deg);
+  filter: hue-rotate(60deg);
 }
 
+img:hover {
+  -webkit-filter: none;
+  filter: none;
+} 
+
 .linkedin-button {
-  margin-top: 2em;
+  padding: 5px;
   height: 5em;
   width: 15em;
   z-index: 10;
-  font-size: 12px;
-  background-image: url(https://marmot-clone-start.s3-us-west-1.amazonaws.com/LinkedIn-Blue-14%402x.png);
+  background-image: url(https://marmot-clone-start.s3-us-west-1.amazonaws.com/linkedInBrand.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+  border: white;
+}
+
+.below-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 4em;
+  width: 14em;
+  margin-top: 1em;
+  border: 2px dotted black;
+  transition: transform 1s ease;
+}
+
+.linkedin-button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 a:link    {
