@@ -20,9 +20,11 @@ export const RetroProjects = () => {
         </a>
       </div>
       <div className="pro-stamp">
+      <a href="https://cranky-hoover-5a469d.netlify.com/" target="_blank">
         <div className="link-container">
           <h2 className="link-title">Outdoor Gear</h2>
         </div>
+        </a>
       </div>
   </div>
   )
