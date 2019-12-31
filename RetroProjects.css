@@ -19,21 +19,6 @@
   margin-top: -6em;
 }
 
-.pro-stamp {
-  height: 10em;
-  width: 50%;
-  border: 2px dotted whitesmoke;
-  transition: transform .5s ease;
-  margin-top: 15px;
-  position: relative;
-}
-
-.pro-stamp:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-  border: 2px dotted purple;
-}
-
 .link-container {
   height: 100%;
   width: 100%;
@@ -50,15 +35,19 @@
   color: white;
 }
 
+.link-title:hover {
+  color: black;
+}
+
 a:link    {
   text-decoration:  none;
   /* font-weight:      bold; */
   /* background-color: #ddd; */
-  color:            white;
+  /* color:            white; */
   } 
 
   a:visited    {
   text-decoration:  none;
-  color:            white;
+  /* color:            white; */
   } 
 
